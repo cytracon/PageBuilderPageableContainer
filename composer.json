@@ -1,0 +1,17 @@
+{
+  "name": "cytracon/pagebuilderpageablecontainer",
+  "description": "Magento PageBuilderPageableContainer Plugin",
+  "type": "magento2-module",
+  "license": "proprietary",
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Cytracon\\PageBuilderPageableContainer\\": ""
+    }
+  },
+  "require": {
+    "php": "^7.4 || ^8.0"
+  }
+}
